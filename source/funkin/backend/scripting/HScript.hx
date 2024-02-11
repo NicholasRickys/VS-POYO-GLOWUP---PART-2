@@ -9,6 +9,8 @@ import openfl.Assets;
 import lime.utils.AssetType;
 import hscript.*;
 
+using StringTools;
+
 class HScript extends Script {
 	public var interp:Interp;
 	public var parser:Parser;
