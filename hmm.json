@@ -6,7 +6,7 @@
     },
     {
       "name": "openfl",
-      "type": "haxelib",
+      "type": "haxelib"
     },
     },
     {
@@ -15,11 +15,11 @@
     },
     {
       "name": "flixel-addons",
-      "type": "haxelib",
+      "type": "haxelib"
     },
     {
       "name": "hxcpp",
-      "type": "haxelib",
+      "type": "haxelib"
     },
     {
       "name": "extension-androidtools",
