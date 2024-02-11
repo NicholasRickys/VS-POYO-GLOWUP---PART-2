@@ -36,6 +36,8 @@ jobs:
           haxelib setup ~/haxelib
           haxelib --quiet install hmm
           haxelib run hmm install --quiet
+          haxelib git hxcpp https://github.com/HaxeFoundation/hxcpp.git --quiet
+          haxelib run lime rebuild hxcpp
       - name: Configure Android
         run: |
           haxelib run lime config ANDROID_SDK $ANDROID_HOME
@@ -45,7 +47,7 @@ jobs:
         env:
           ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
       - name: Compile
-        run: haxelib run lime build android -final
+        run: haxelib run lime build android -clean -final
         env:
           cert_pass: nullfunni
           cert_alias_pass: nullfunni
