@@ -5,6 +5,8 @@ import haxe.xml.Access;
 import funkin.game.Character;
 import funkin.editors.extra.PropertyButton;
 
+using StringTools;
+
 class CharacterInfoScreen extends UISubstateWindow {
 	public var character:Character;
 

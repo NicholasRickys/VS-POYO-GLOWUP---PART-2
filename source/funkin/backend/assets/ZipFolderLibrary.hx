@@ -25,6 +25,8 @@ import haxe.zip.Reader;
 import funkin.backend.utils.SysZip;
 import funkin.backend.utils.SysZip.SysZipEntry;
 
+using StringTools;
+
 class ZipFolderLibrary extends AssetLibrary implements IModsAssetLibrary {
 	public var zipPath:String;
 	public var modName:String;

@@ -12,6 +12,8 @@ import funkin.backend.FunkinText;
 import haxe.xml.Access;
 import flixel.text.FlxText;
 
+using StringTools;
+
 class StoryMenuState extends MusicBeatState {
 	public var characters:Map<String, MenuCharacter> = [];
 	public var weeks:Array<WeekData> = [];

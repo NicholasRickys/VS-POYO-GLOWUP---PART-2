@@ -4,6 +4,8 @@ import flixel.math.FlxPoint;
 import flixel.animation.FlxAnimation;
 import funkin.backend.utils.XMLUtil.AnimData;
 
+using StringTools;
+
 class CharacterAnimScreen extends UISubstateWindow {
 	public var animData:AnimData;
 

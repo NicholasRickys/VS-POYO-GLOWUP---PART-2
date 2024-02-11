@@ -5,6 +5,7 @@ import funkin.backend.shaders.CustomShader;
 import flixel.util.FlxColor;
 
 using flixel.util.FlxSpriteUtil;
+using StringTools;
 
 class UIColorwheel extends UISliceSprite {
 	var colorPicker:FlxSprite;

@@ -6,6 +6,8 @@ import funkin.game.Character;
 import funkin.game.HealthIcon;
 import funkin.backend.chart.ChartData.ChartStrumLine;
 
+using StringTools;
+
 class CharterStrumlineScreen extends UISubstateWindow {
 	public var strumLineID:Int = -1;
 	public var strumLine:ChartStrumLine;

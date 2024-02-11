@@ -5,6 +5,8 @@ import flixel.text.FlxText;
 import flixel.math.FlxPoint;
 import haxe.xml.Access;
 
+using StringTools;
+
 class DialogueBox extends FunkinSprite {
 	public var dialogueBoxData:Access;
 	public var positions:Map<String, CharPosDef> = [];

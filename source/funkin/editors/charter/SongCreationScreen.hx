@@ -6,6 +6,8 @@ import flixel.group.FlxGroup;
 import funkin.backend.chart.ChartData;
 import haxe.io.Bytes;
 
+using StringTools;
+
 typedef SongCreationData = {
 	var meta:ChartMetaData;
 	var instBytes:Bytes;

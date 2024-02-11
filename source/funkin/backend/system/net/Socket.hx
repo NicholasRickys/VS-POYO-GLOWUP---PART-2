@@ -4,6 +4,8 @@ package funkin.backend.system.net;
 import sys.net.Host;
 import sys.net.Socket as SysSocket;
 
+using StringTools;
+
 @:keep
 class Socket implements IFlxDestroyable {
 	public var socket:SysSocket;

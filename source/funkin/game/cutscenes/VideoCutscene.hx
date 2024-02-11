@@ -15,6 +15,8 @@ import flixel.util.FlxTimer;
 import hxvlc.flixel.FlxVideo;
 #end
 
+using StringTools;
+
 /**
  * Substate made for video cutscenes. To use it in a scripted cutscene, call `startVideo`.
  */

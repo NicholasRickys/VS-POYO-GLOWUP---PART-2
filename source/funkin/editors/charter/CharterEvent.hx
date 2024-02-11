@@ -7,6 +7,8 @@ import funkin.game.HealthIcon;
 import funkin.editors.charter.CharterBackdropGroup.EventBackdrop;
 import funkin.backend.chart.ChartData.ChartEvent;
 
+using StringTools;
+
 class CharterEvent extends UISliceSprite implements ICharterSelectable {
 	public var events:Array<ChartEvent>;
 	public var step:Float;

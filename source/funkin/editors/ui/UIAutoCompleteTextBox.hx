@@ -6,6 +6,8 @@ import lime.ui.KeyCode;
 import openfl.desktop.Clipboard;
 import openfl.geom.Rectangle;
 
+using StringTools;
+
 class UIAutoCompleteTextBox extends UITextBox {
 	public var suggestionText:UIText;
 

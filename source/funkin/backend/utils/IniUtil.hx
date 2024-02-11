@@ -1,5 +1,6 @@
 package funkin.backend.utils;
 
+using StringTools;
 
 /**
  * DOESNT SUPPORT CATEGORIES YET!!

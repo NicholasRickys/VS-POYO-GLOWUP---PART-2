@@ -2,6 +2,8 @@ package funkin.backend.assets;
 
 import lime.utils.AssetLibrary;
 
+using StringTools;
+
 #if sys
 /**
  * Used to prevent crashes

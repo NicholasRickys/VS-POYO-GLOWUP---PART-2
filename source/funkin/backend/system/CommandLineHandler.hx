@@ -2,6 +2,9 @@ package funkin.backend.system;
 
 #if sys
 import sys.FileSystem;
+
+using StringTools;
+
 class CommandLineHandler {
 	public static function parseCommandLine(cmd:Array<String>) {
 		var i:Int = 0;

@@ -3,6 +3,8 @@ package funkin.backend.assets;
 import funkin.backend.assets.IModsAssetLibrary;
 import lime.utils.AssetLibrary;
 
+using StringTools;
+
 class AssetsLibraryList extends AssetLibrary {
 	public var libraries:Array<AssetLibrary> = [];
 

@@ -13,6 +13,8 @@ import flixel.math.FlxRect;
 import flixel.math.FlxPoint;
 import funkin.backend.system.interfaces.IBeatReceiver;
 
+using StringTools;
+
 @:enum
 abstract XMLAnimType(Int)
 {

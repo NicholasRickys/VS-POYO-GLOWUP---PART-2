@@ -3,6 +3,8 @@ package funkin.backend.utils;
 import flixel.util.FlxColor;
 import flixel.text.FlxText;
 
+using StringTools;
+
 class MarkdownUtil {
 	public static function applyMarkdownText(text:FlxText, str:String) {
 		text.textField.htmlText = Markdown.markdownToHtml(prepareMarkdown(str));

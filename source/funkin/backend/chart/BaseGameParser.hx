@@ -1,5 +1,7 @@
 package funkin.backend.chart;
 
+using StringTools;
+
 class BaseGameParser {
 	public static function parse(data:Dynamic, result:ChartData) {
 		// base fnf chart parsing

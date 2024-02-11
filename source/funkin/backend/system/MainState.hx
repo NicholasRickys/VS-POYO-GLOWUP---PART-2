@@ -9,6 +9,8 @@ import funkin.menus.BetaWarningState;
 import funkin.backend.chart.EventsData;
 import flixel.FlxState;
 
+using StringTools;
+
 /**
  * Simple state used for loading the game
  */
