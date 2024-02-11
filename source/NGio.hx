@@ -25,6 +25,7 @@ using StringTools;
  */
 class NGio
 {
+	#if newgrounds
 	public static var isLoggedIn:Bool = false;
 	public static var scoreboardsLoaded:Bool = false;
 
@@ -36,6 +37,7 @@ class NGio
 	public static var GAME_VER:String = "";
 	public static var GAME_VER_NUMS:String = '';
 	public static var gotOnlineVer:Bool = false;
+	#end
 
 	public static function noLogin(api:String)
 	{
