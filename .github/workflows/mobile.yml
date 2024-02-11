@@ -52,9 +52,25 @@ jobs:
           cert_pass: nullfunni
           cert_alias_pass: nullfunni
       - name: Delete Cache
-        uses: prantlf/delete-cache-action@v2.0.6
+        uses: actions/github-script@v6
         with:
-          key: cache-build-android
+          script: |
+            const caches = await github.rest.actions.getActionsCacheList({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            })
+            for (const cache of caches.data.actions_caches) {
+              if (cache.key == "cache-build-android")
+              {
+              github.rest.actions.deleteActionsCacheById({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                cache_id: cache.id,
+              })
+              console.log("BYE BITCH")
+              }
+            }
+            console.log("Clear completed")
       - name: Upload New Cache
         uses: actions/cache@main
         with:
